@@ -1,13 +1,9 @@
-# 💻 資訊概論作業：個人作品集網站
+# 💻 Introduction to Computer Science: Personal Portfolio Website
 
-## 介紹
-這是 [您的姓名] 為了「資訊概論」課程所建立的個人作品集網站。
+## Project Overview
+This portfolio website was created by **Nien-Yun Ouyang** for the "Introduction to Computer Science" course at Yuan Ze University.
 
-本網站符合下列要求：
-* 包含個人姓名、照片與簡短介紹。
-* 展示至少 3 個專案作品。
-* 使用 HTML/CSS 建立，並發佈於 GitHub Pages。
-
-## 網站連結
-- **作品集網址:** https://Noemi325.github.io
-- **GitHub 儲存庫:** [貼上您的 GitHub 儲存庫連結]
+## Project Details
+* **Website Link:** https://Noemi325.github.io/portfolio-noemi/
+* **Technology Used:** Basic HTML5 structure and fundamental CSS styling.
+* **Requirements Met:** Includes name, photo, short bio, at least three projects, and contact information.
