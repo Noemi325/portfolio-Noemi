@@ -1,28 +1,28 @@
-/* style.css - 完整的現代風格替換 */
+/* style.css - Modern Portfolio Layout (Dark Theme) */
 
-/* 1. 全域樣式與字體 */
+/* 1. Global Styles and Typography */
 body {
-    font-family: 'Noto Sans TC', sans-serif; /* 使用 Google 字體 */
+    font-family: 'Noto Sans TC', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f7f6; /* 淺灰色背景 */
-    color: #333;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
     line-height: 1.6;
 }
 
-/* 2. 容器與置中 */
+/* 2. Container and Centering */
 .container {
-    width: 90%; /* 寬度佔 90% */
-    max-width: 900px; /* 最大寬度限制 */
-    margin: 0 auto; /* 置中 */
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto; /* Key step for horizontal centering */
     padding: 40px 0;
 }
 
-/* 3. 標題與分隔線 */
+/* 3. Headings and Separators */
 h1 {
     font-weight: 700;
-    color: #1a4d8c;
-    border-bottom: 3px solid #ccc;
+    color: #fff; /* White title */
+    border-bottom: 3px solid #777; /* Light gray separator line */
     padding-bottom: 10px;
     margin-bottom: 30px;
     font-size: 2.5em;
@@ -30,53 +30,67 @@ h1 {
 
 h2 {
     font-weight: 500;
-    color: #444;
+    color: #fff; /* White title */
     padding-top: 20px;
     margin-top: 40px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #555; /* Light gray separator line */
 }
 
 h3 {
-    color: #1a4d8c;
+    color: #00bcd4; /* Accent color for emphasis */
 }
 
-/* 4. 個人照片與資訊 */
-.profile {
-    display: flex;
-    align-items: center;
-    gap: 30px; /* 元素間距 */
-    margin-bottom: 40px;
-}
-
-.profile img {
+/* 4. Profile Photo and Info */
+img {
     border-radius: 50%;
-    border: 4px solid #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 輕微陰影 */
+    border: 4px solid #444; /* Photo border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow adjusted for dark mode */
     object-fit: cover;
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
 }
 
-/* 5. 專案卡片樣式 */
+/* 5. Project Card Styles */
 section {
-    background-color: #ffffff; /* 白色背景 */
-    border-left: 5px solid #1a4d8c; /* 左側藍色邊框 */
+    background-color: #444; /* Project card background (slightly lighter dark gray) */
+    border-left: 5px solid #00bcd4; /* Accent color left border */
     padding: 20px;
     margin-bottom: 25px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 輕微卡片陰影 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
     transition: transform 0.2s;
+    color: #fff; /* Ensure text inside card is white */
 }
 
 section:hover {
-    transform: translateY(-3px); /* 滑鼠懸停時微抬 */
+    transform: translateY(-3px); /* Slight lift on hover */
 }
 
-/* 6. 聯絡資訊 */
+/* 6. Contact Information */
 ul {
-    list-style: none; /* 移除點點 */
+    list-style: none; /* Remove bullet points */
     padding: 0;
 }
 
 li {
     margin-bottom: 10px;
+}
+
+/* 7. Link Styling for Projects */
+.links a {
+    text-decoration: none;
+    color: #00bcd4; /* Link color */
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h3 a {
+    color: #00bcd4; /* Project title link color */
+    text-decoration: none;
+}
+h3 a:hover {
+    text-decoration: underline;
 }
